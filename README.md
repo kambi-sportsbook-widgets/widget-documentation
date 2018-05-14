@@ -1,4 +1,4 @@
-![alt text](https://glomo.se/static/media/Glomo_logo.08169324.svg)
+<img src="https://glomo.se/static/media/Glomo_logo.08169324.svg" width="250"/>
 
 # Documentation
 
