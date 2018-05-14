@@ -1,3 +1,5 @@
+![alt text](https://glomo.se/static/media/Glomo_logo.08169324.svg)
+
 # Documentation
 
 Widgets are self contained content that can render data entirely up to the operator and embedded into the sportsbook client. This is a powerful way to customise the content as well as the interface of the client to provide your users with a stimulating experience.
