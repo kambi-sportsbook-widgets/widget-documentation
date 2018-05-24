@@ -2,15 +2,12 @@
 
 <!-- toc -->
 
-- [Documentation](#documentation)
-  - [Installation](#installation)
-    - [Option One](#option-one)
-      - [Note about iframes](#note-about-iframes)
-        - [Pros](#pros)
-        - [Cons](#cons)
-    - [Option Two](#option-two)
-  - [Links](#links)
-    - [Player Specials](#player-specials)
+- [Installation](#installation)
+  - [Option One](#option-one)
+    - [Note about iframes](#note-about-iframes)
+  - [Option Two](#option-two)
+- [Links](#links)
+  - [Player Specials](#player-specials)
 
 <!-- tocstop -->
 
