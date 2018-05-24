@@ -6,8 +6,9 @@
   - [Option One](#option-one)
     - [Note about iframes](#note-about-iframes)
   - [Option Two](#option-two)
-- [Links](#links)
-  - [Player Specials](#player-specials)
+- [Widget Documentation Links](#widget-documentation-links)
+  - [Player Specials Widget](#player-specials-widget)
+  - [Timeline Widget](#timeline-widget)
 
 <!-- tocstop -->
 
@@ -186,8 +187,12 @@ In order to initiate the widget we need to follow the steps below:
 
   If and when the widget removes itself the `onWidgetRemoved` method will be called.
 
-## Links
+## Widget Documentation Links
 
-### Player Specials
+### Player Specials Widget
+
+https://github.com/kambi-sportsbook-widgets/widget-documentation/blob/master/player-specials-readme.md
+
+### Timeline Widget
 
 
