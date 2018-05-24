@@ -4,7 +4,7 @@
   "description": "<img src=\"https://glomo.se/static/media/Glomo_logo.08169324.svg\" width=\"250\"/>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "toc": "markdown-toc -i  --no-firsth1 --maxdepth=3 ./README.md"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/kambi-sportsbook-widgets/widget-documentation/issues"
   },
-  "homepage": "https://github.com/kambi-sportsbook-widgets/widget-documentation#readme",
-  "dependencies": {
-    "markdown-toc": "^1.2.0"
-  }
+  "homepage": "https://github.com/kambi-sportsbook-widgets/widget-documentation#readme"
 }

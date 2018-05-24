@@ -2,6 +2,14 @@
 
 <!-- toc -->
 
+- [Installation](#installation)
+  * [Option One](#option-one)
+    + [Note about iframes](#note-about-iframes)
+  * [Option Two](#option-two)
+- [Links](#links)
+
+<!-- tocstop -->
+
 # Documentation
 
 Widgets are self contained content that can render data entirely up to the operator and embedded into the sportsbook client. This is a powerful way to customise the content as well as the interface of the client to provide your users with a stimulating experience.
@@ -176,3 +184,7 @@ In order to initiate the widget we need to follow the steps below:
   ```
 
   If and when the widget removes itself the `onWidgetRemoved` method will be called.
+
+## Links
+
+**Player Specials** -
