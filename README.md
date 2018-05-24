@@ -2,11 +2,15 @@
 
 <!-- toc -->
 
-- [Installation](#installation)
-  * [Option One](#option-one)
-    + [Note about iframes](#note-about-iframes)
-  * [Option Two](#option-two)
-- [Links](#links)
+- [Documentation](#documentation)
+  - [Installation](#installation)
+    - [Option One](#option-one)
+      - [Note about iframes](#note-about-iframes)
+        - [Pros](#pros)
+        - [Cons](#cons)
+    - [Option Two](#option-two)
+  - [Links](#links)
+    - [Player Specials](#player-specials)
 
 <!-- tocstop -->
 
@@ -187,4 +191,6 @@ In order to initiate the widget we need to follow the steps below:
 
 ## Links
 
-**Player Specials** -
+### Player Specials
+
+
