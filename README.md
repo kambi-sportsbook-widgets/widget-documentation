@@ -195,4 +195,4 @@ https://github.com/kambi-sportsbook-widgets/widget-documentation/blob/master/pla
 
 ### Timeline Widget
 
-
+https://github.com/kambi-sportsbook-widgets/widget-documentation/blob/master/timeline-readme.md
