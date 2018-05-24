@@ -1,0 +1,23 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "<img src=\"https://glomo.se/static/media/Glomo_logo.08169324.svg\" width=\"250\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kambi-sportsbook-widgets/widget-documentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kambi-sportsbook-widgets/widget-documentation/issues"
+  },
+  "homepage": "https://github.com/kambi-sportsbook-widgets/widget-documentation#readme",
+  "dependencies": {
+    "markdown-toc": "^1.2.0"
+  }
+}

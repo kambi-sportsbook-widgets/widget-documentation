@@ -1,5 +1,7 @@
 <img src="https://glomo.se/static/media/Glomo_logo.08169324.svg" width="250"/>
 
+<!-- toc -->
+
 # Documentation
 
 Widgets are self contained content that can render data entirely up to the operator and embedded into the sportsbook client. This is a powerful way to customise the content as well as the interface of the client to provide your users with a stimulating experience.
@@ -58,6 +60,7 @@ Should there be a requirement at any point in time that you wish to **hide** the
 window.widgetSettings = {
   // ...our widget settings config
   hidden: ['Awesome Widget'],
+  reset: ['Awesome Widget'],
 }
 ```
 
