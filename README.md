@@ -6,6 +6,10 @@
   - [Option One](#option-one)
     - [Note about iframes](#note-about-iframes)
   - [Option Two](#option-two)
+- [Kambi API Notes](#kambi-api-notes)
+  - [Development](#development)
+    - [As an object](#as-an-object)
+    - [As a string](#as-a-string)
 - [Widget Documentation Links](#widget-documentation-links)
   - [Player Specials Widget](#player-specials-widget)
   - [Timeline Widget](#timeline-widget)
@@ -186,6 +190,76 @@ In order to initiate the widget we need to follow the steps below:
   ```
 
   If and when the widget removes itself the `onWidgetRemoved` method will be called.
+
+## Kambi API Notes
+
+### Development
+
+In your development environment you will use the Kambi development API that is prefixed with `https://cts-` this causes Glomo thrid party widgets to fail due to the fact that events and their corresponding ID's differ between the kambi production and development API's. To counter this you are able to pass some `mockSetupData` json object to the widget which will allow you to amend the Kambi API base url so that you are able to test in development.
+
+The `mockSetupData` key takes either a string (url for fetching the mock setup data) or the object itself.
+
+```javascript
+{
+  args: {
+    mockSetupData: String | Object
+  }
+}
+```
+
+As per our example above for the **Awesome Widget** lets load some mock setup data:
+
+#### As an object
+
+This example contains the mock setup data as an object with some configuration:
+
+```javascript
+{
+  args: {
+    mockSetupData: {
+      "height": 0,
+      "arguments": {},
+      "pageInfo": {
+        "pageType": "home",
+        "pageParam": "",
+        "pageTrackingPath": "/home{layout_wide}"
+      },
+      "clientConfig": {
+        "market": "kambi",
+        "locale": "sv_SE",
+        "currency": "EUR",
+        "channelId": 1,
+        "streamingAllowedForPlayer": true,
+        "oddsFormat": "decimal",
+        "apiBaseUrl": "https://e1-api.kambi.com/offering/api/{apiVersion}/", // For amending to a development API base url change this value
+        "apiStatisticsBaseUrl": "https://e1-api.kambi.com/statistics/api/",
+        "apiBaseUrls": {
+          "v2": "https://e1-api.kambi.com/offering/api/v2/",
+          "v3": "https://e1-api.kambi.com/offering/api/v3/",
+          "v2018": "https://e1-api.kambi.com/offering/v2018/"
+        },
+        "device": "desktop",
+        "auth": false,
+        "routeRoot": "",
+        "offering": "kambi",
+        "customer": "kambi"
+      }
+    }
+  }
+}
+```
+
+#### As a string
+
+This example contains the mock setup data passed as a url:
+
+```javascript
+{
+  args: {
+    mockSetupData: 'https://url-to-mocksetupdata.com' // fetches data against the endpoint provided
+  }
+}
+```
 
 ## Widget Documentation Links
 
