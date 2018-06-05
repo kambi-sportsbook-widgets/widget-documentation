@@ -266,7 +266,3 @@ This example contains the mock setup data passed as a url:
 ### Player Specials Widget
 
 https://github.com/kambi-sportsbook-widgets/widget-documentation/blob/master/player-specials-readme.md
-
-### Timeline Widget
-
-https://github.com/kambi-sportsbook-widgets/widget-documentation/blob/master/timeline-readme.md
