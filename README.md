@@ -157,7 +157,7 @@ In order to initiate the widget we need to follow the steps below:
   )
   ```
 
-* The widget fills the entire width the `container` element supplied as the first parameter. Therefore the width of the container element should be set by whomever is implementing the widget. The height of the widget is dynamic and controlled by the widget and so the height of the container.
+* The widget fills the entire width of the `container` element supplied as the first parameter. Therefore the width of the container element should be set by whomever is implementing the widget. The height of the widget is dynamic and controlled by the widget and so the height of the container.
 
   ```html
   <!-- our widget container -->
